@@ -2,8 +2,10 @@
 /**
 * Базовая модель пользователей
 */
-class User extends Eloquent
+class User extends Maileator
 {
+    protected $_has_many_foreign = 'owner_id';
+    
     /**
     * Возвращает модель проекта с заданным ID
     * 

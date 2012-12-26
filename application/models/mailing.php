@@ -1,6 +1,6 @@
 <?php
 
-class Mailing extends Eloquent
+class Mailing extends Maileator
 {
     //
 }

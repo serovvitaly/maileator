@@ -1,6 +1,6 @@
 <?php
 
-class Project extends Eloquent
+class Project extends Maileator
 {
     public function mailings()
     {

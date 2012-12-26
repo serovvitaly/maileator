@@ -7,7 +7,7 @@ class Home_Controller extends Base_Controller
 	{
         $user = User::find(2);
         
-        var_dump($user->project(4));
+        var_dump($user->has('project', 3)->has('mailing', 7)->has('template', 1));
         
 		return View::make('home.index');
 	}
