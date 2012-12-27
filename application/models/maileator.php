@@ -36,4 +36,22 @@ class Maileator extends Eloquent
         
         return $output;
     }
+    
+    
+    /**
+    * Универсальный метод связывания моделей по отношению Many-One-To
+    * 
+    * @param mixed $model
+    * @param mixed $as_model
+    */
+    public function belong($model)
+    {
+        $foreign = $model . '_id';
+        
+        $model = ucfirst($model);
+        
+        $output = $this->belongs_to($model, $foreign)->first();
+        
+        return $output;
+    }
 }
