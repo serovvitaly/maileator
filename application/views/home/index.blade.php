@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,8 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Le styles -->
     <link href="/bundles/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/bundles/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/bundles/bootstrap/css/docs.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -19,19 +19,12 @@
         padding: 9px 0;
       }
     </style>
-    <link href="/bundles/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/bundles/bootstrap/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/bundles/bootstrap/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/bundles/bootstrap/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="/bundles/bootstrap/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="/bundles/bootstrap/ico/favicon.png">
   </head>
 
   <body>
@@ -59,36 +52,22 @@
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li class="active"><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
+    <div class="container">
+      <div class="row">
+        
+        <div class="span3 bs-docs-sidebar">
+        <a href="#" class="btn"><i class="icon-th"></i> Добавить проект</a>
+        <ul class="nav nav-list bs-docs-sidenav affix-top" style="margin-top: 5px;">
+          <li><a href="#"><i class="icon-chevron-right"></i> Первый проект</a></li>
+          <li><a href="#"><i class="icon-chevron-right"></i> File structure</a></li>
+          <li><a href="#"><i class="icon-chevron-right"></i> What's included</a></li>
+          <li><a href="#"><i class="icon-chevron-right"></i> HTML template</a></li>
+          <li><a href="#"><i class="icon-chevron-right"></i> Examples</a></li>
+          <li><a href="#"><i class="icon-chevron-right"></i> What next?</a></li>
+        </ul>
+        </div>
+        
         <div class="span9">
-          <div class="hero-unit">
-            <h1>Hello, world!</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-          </div>
           <div class="row-fluid">
             <div class="span4">
               <h2>Heading</h2>
@@ -137,19 +116,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/bundles/bootstrap/js/jquery.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-transition.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-alert.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-modal.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-dropdown.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-scrollspy.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-tab.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-tooltip.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-popover.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-button.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-collapse.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-carousel.js"></script>
-    <script src="/bundles/bootstrap/js/bootstrap-typeahead.js"></script>
-
+    <script src="/bundles/jquery/jquery-1.8.3.min.js"></script>
+    <script src="/bundles/bootstrap/js/bootstrap.js"></script>
   </body>
 </html>
